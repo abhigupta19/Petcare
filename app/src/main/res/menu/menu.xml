@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:checked="true"
+        android:icon="@drawable/common_google_signin_btn_icon_dark_normal"
+        android:title="jaj"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/momentsFragment"
+        android:icon="@mipmap/ic_launcher"
+        android:title="gii"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/notificationsFragment"
+        android:icon="@mipmap/ic_launcher_round"
+        android:title="title"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/messagesFragment"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="messages_title"
+        app:showAsAction="ifRoom" />
+</menu>
